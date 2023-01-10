@@ -1,0 +1,19 @@
+.yarn-card{
+  border-radius: 24px;
+
+  .card-img {
+    width: 220px;
+    height: 180px;
+    border-radius: 24px !important;
+    object-fit: cover;
+  }
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.yarns {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2em;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@200;300;400;500;800&display=swap');
+
+@import "./stylesheets/button.scss";
+@import "./stylesheets/card.scss";
+
+body {
+  margin: 0;
+  font-family: 'Taviraj', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FCECDD;
+  width: 100vw;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-weight: 300;
+}
